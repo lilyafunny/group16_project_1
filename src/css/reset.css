@@ -9,6 +9,12 @@ p {
   margin: 0;
 }
 
+body {
+  font-family: "DM Sans", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-backgroud-color);
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -28,4 +34,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }

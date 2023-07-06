@@ -15,17 +15,11 @@
 @import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --main-text-color: #141414;
+  --main-background-color: #ffffff;
+  --first-background-color: #a1c487;
+  --second-background-color: #eaf7e5;
+  --main-button-color: #fc8a11;
+  --third-backgroud-color: #faf3e7;
+  --additional-color: #f3f3f3;
 }
