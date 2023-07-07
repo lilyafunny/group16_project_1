@@ -20,6 +20,12 @@
   --first-background-color: #a1c487;
   --second-background-color: #eaf7e5;
   --main-button-color: #fc8a11;
-  --third-backgroud-color: #faf3e7;
+  --third-background-color: #faf3e7;
   --additional-color: #f3f3f3;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }

@@ -9,12 +9,6 @@ p {
   margin: 0;
 }
 
-body {
-  font-family: "DM Sans", sans-serif;
-  color: var(--main-text-color);
-  background-color: var(--main-backgroud-color);
-}
-
 ul {
   margin: 0;
   padding: 0;
