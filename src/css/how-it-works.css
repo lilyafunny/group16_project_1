@@ -28,7 +28,15 @@
     gap: 20px;
 }
 
-.section-text {
+.section-text-first {
+    text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.10);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+}
+
+.section-text-second {
     text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.10);
     font-weight: 400;
     font-size: 14px;
@@ -57,7 +65,6 @@
     .text-block {
         flex-direction: row;
         gap: 20px;
-        width: 616px;
     }
 
     .section-title {
@@ -66,9 +73,16 @@
         line-height: 1.1;
     }
 
-    .section-text {
+    .section-text-first {
         font-size: 18px;
         line-height: 1.33;
+        width: 317px;
+    }
+
+    .section-text-second {
+        font-size: 18px;
+        line-height: 1.33;
+        width: 279px;
     }
 }
 
@@ -89,6 +103,13 @@
 
     .text-block {
         gap: 40px;
-        width: 687px;
+    }
+
+    .section-text-first {
+        width: 353px;
+    }
+
+    .section-text-second {
+        width: 294px;
     }
 }
