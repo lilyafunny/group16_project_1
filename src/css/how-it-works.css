@@ -22,6 +22,12 @@
     height: auto;
 }
 
+.text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .section-text {
     text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.10);
     font-weight: 400;
@@ -49,14 +55,20 @@
     }
 
     .text-block {
-        display: flex;
+        flex-direction: row;
         gap: 20px;
+        width: 616px;
     }
 
     .section-title {
         width: 386px;
         font-size: 40px;
         line-height: 1.1;
+    }
+
+    .section-text {
+        font-size: 18px;
+        line-height: 1.33;
     }
 }
 
