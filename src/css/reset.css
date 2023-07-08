@@ -45,15 +45,15 @@ img {
 }
 
 @font-face {
-  font-family: ‘DM Sans’, sans-serif;
+  font-family: "DM Sans", sans-serif;
   src: url("/fonts/dmsans-regular-webfont.woff2"),
-  url("/fonts/dmsans-regular-webfont.woff");
+    url("/fonts/dmsans-regular-webfont.woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: ‘DM Sans’, sans-serif;
+  font-family: "DM Sans", sans-serif;
   src: url("/fonts/dmsans-medium-webfont.woff2"),
     url("/fonts/dmsans-medium-webfont.woff");
   font-style: normal;
@@ -61,7 +61,7 @@ img {
 }
 
 @font-face {
-  font-family: ‘DM Sans’, sans-serif;
+  font-family: "DM Sans", sans-serif;
   src: url("/fonts/dmsans-bold-webfont.woff2"),
     url("/fonts/dmsans-bold-webfont.woff2");
   font-style: normal;
