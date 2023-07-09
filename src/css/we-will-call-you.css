@@ -59,7 +59,6 @@
     border-radius: 100px;
     border: 1px solid #cac8c8;
     padding-left: 8px;
-    width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -68,7 +67,7 @@
 }
 
 .recall {
-    padding-left: 19px;
+    padding-left: 3px;
     color: #C1BDBD;
 
     font-size: 14px;
@@ -189,7 +188,6 @@
         border-radius: 100px;
         border: 1px solid #cac8c8;
         padding-left: 15px;
-        width: 100%;
         justify-content: space-between;
         align-items: center;
         display: flex;
@@ -198,7 +196,7 @@
     }
 
     .recall {
-        padding-left: 19px;
+        padding-left: 3px;
         color: #C1BDBD;
 
         font-size: 14px;
