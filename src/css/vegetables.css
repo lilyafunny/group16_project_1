@@ -1,6 +1,4 @@
-.organic-vegetables{
 
- }
  .container-veg{
     margin: 0 auto;
     width: 100%;
@@ -245,7 +243,7 @@ font-size: 28px;
  font-style: normal;
  font-weight: 500;
  line-height: 1.1;
- letter-spacing: -0.1em;
+ letter-spacing: -0.06em;
  text-transform: uppercase;
          }
          .card-paragraph{
