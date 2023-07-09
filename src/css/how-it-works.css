@@ -10,7 +10,7 @@
 .section-title {
     font-size: 28px;
     color: var(--main-text-color);
-    text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.10);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.10);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.04em;
@@ -29,7 +29,7 @@
 }
 
 .section-text-first {
-    text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.10);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.10);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -37,7 +37,7 @@
 }
 
 .section-text-second {
-    text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.10);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.10);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
