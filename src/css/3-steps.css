@@ -22,20 +22,27 @@
 .easysteps {
   position: relative;
   display: flex;
-  background-color: #faf3e7;
-  background-image: radial-gradient(#a1c487 1px, transparent 1px),
-    radial-gradient(#a1c487 1px, transparent 1px);
-  background-position: 0 0;
-  background-size: 5.03px 5.03px;
+  top: 60px;
+  left: 62px;
+  right: 62px;
+  bottom: 60px;
+  background: #faf3e7;
+  background-image: radial-gradient(
+    circle at 30px 20px,
+    rgba(161, 196, 135, 0.69) 5px,
+    transparent 0
+  );
+  background-size: 62px 60px;
   padding-top: 40px;
   padding-bottom: 0px;
+  border-radius: 60px;
 }
+
 .easysteps {
   flex-direction: column;
 }
 
 .easysteps-title {
-  font-family: DM Sans;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -97,14 +104,6 @@
 }
 
 @media screen and (min-width: 380px) {
-  ol li::before {
-    width: 50px;
-    height: 48px;
-    line-height: 48px;
-  }
-}
-
-@media screen and (min-width: 380px) {
   .container {
     max-width: 380px;
     padding-left: 20px;
@@ -113,12 +112,26 @@
     margin-right: auto;
   }
 
-  .easysteps-conteiner-mini {
+  .easysteps-conteiner-content {
     text-align: center;
   }
 }
 /*================TABLET====================*/
 @media screen and (min-width: 768px) {
-  .easysteps-conteiner {
+  .easysteps {
+    flex-direction: row;
+  }
+
+  .conteiner2 {
+    order: 2;
+    flex-basis: 274px;
+    max-width: 274px;
+  }
+
+  .easysteps-conteiner-content {
+    order: 1;
+    margin-right: 20px;
+    align-self: flex-start;
+    max-width: calc(100% - 294px);
   }
 }
