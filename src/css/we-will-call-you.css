@@ -256,6 +256,7 @@ display: flex;
         .positione-img {
             display: flex;
             margin-top: 40px;
+            justify-content: center;
         }
         
 
@@ -274,7 +275,8 @@ display: flex;
         .positione-img {
             display: flex;
             margin-top: 40px;
-            flex-direction: column;
+            justify-content: center;
+            
         }
 
 
@@ -355,7 +357,13 @@ display: flex;
             flex-shrink: 0;
     }
 
-
+.positione-img{
+    display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        
+}
+    
 }
 
 @media (min-width: 1024px){
