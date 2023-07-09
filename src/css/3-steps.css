@@ -1,0 +1,83 @@
+.easysteps-conteiner {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 375px) {
+  .easysteps-conteiner {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .easysteps-conteiner {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .easysteps-conteiner {
+    width: 1440px;
+  }
+}
+/*================= M O B A I L ====================*/
+
+.easysteps {
+  position: relative;
+  display: flex;
+
+  background-color: #faf3e7;
+  background-image: radial-gradient(#a1c487 1px, transparent 1px),
+    radial-gradient(#a1c487 1px, transparent 1px);
+  background-position: 0 0;
+  background-size: 5.03px 5.03px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+.easysteps {
+  flex-direction: column;
+}
+
+.easysteps-title {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+.easysteps-list ol {
+  padding: 22px;
+}
+.easysteps-list li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+}
+.easysteps-icon {
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .easysteps-list li > svg {
+    margin-right: 15px;
+  }
+
+  .easysteps-list li > span {
+    display: block;
+  }
+  .easysteps-icon {
+    display: block;
+    width: 40px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  .easysteps-conteiner-mini {
+    text-align: center;
+  }
+}
+/*================TABLET====================*/
