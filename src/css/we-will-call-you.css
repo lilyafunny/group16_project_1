@@ -58,7 +58,7 @@
 .form-recall {
     border-radius: 100px;
     border: 1px solid #cac8c8;
-    padding-left: 15px;
+    padding-left: 8px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -117,9 +117,9 @@
         bottom: 60px;
         background: #faf3e7;
         background-image: radial-gradient(circle at 30px 20px,
-                rgba(161,
-                    196,
-                    135,
+                rgba(164,
+                    173,
+                    157,
                     0.69) 5px,
                 transparent 0);
         background-size: 45px 39px;
@@ -155,7 +155,7 @@
         justify-content: center;
         color: #141414;
         text-align: center;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        text-shadow: 0 4px 70px  rgba(0, 0, 0, 0.10);
         font-family: DM Sans;
         font-size: 24px;
         font-style: normal;
@@ -174,7 +174,7 @@
         justify-content: center;
         color: #141414;
         text-align: center;
-        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        text-shadow: 0 4px 70px  rgba(0, 0, 0, 0.10);
         font-family: DM Sans;
         font-size: 14px;
         font-style: normal;
@@ -212,7 +212,7 @@
         display: inline-flex;
         padding: 15px 35px;
         align-items: center;
-        gap: 15px;
+        
         border-radius: 100px;
         background: #FC8A11;
         border: none;
@@ -229,10 +229,7 @@
         text-transform: capitalize;
     }
 
-    .recall {
-        border: none;
-
-    }
+   
 
 .img-women-positione {
 
@@ -244,9 +241,9 @@ display: flex;
     bottom: 60px;
     background: #faf3e7;
     background-image: radial-gradient(circle at 30px 20px,
-            rgba(161,
-                196,
-                135,
+            rgba(164,
+                173,
+                157,
                 0.69) 5px,
             transparent 0);
     background-size: 45px 39px;
@@ -291,9 +288,9 @@ display: flex;
                         bottom: 60px;
                         background: #faf3e7;
                         background-image: radial-gradient(circle at 30px 20px,
-                                rgba(161,
-                                    196,
-                                    135,
+                                rgba(164,
+                                    173,
+                                    157,
                                     0.69) 5px,
                                 transparent 0);
                         background-size: 45px 39px;
@@ -418,8 +415,8 @@ display: flex;
 
 
 .img-women-positione{
+    width: 525px;
     
-    height: 499px;
     padding-top: 0;
     display: flex;
         top: 60px;
@@ -443,6 +440,7 @@ display: flex;
     line-height: 1.28;
     letter-spacing: -0.56px;
 }
+
 
 
 }
