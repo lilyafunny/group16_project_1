@@ -85,8 +85,8 @@
 }
 
 .footer-link-icon:is(:hover, :focus) {
-    border-color: #A1C487;
-    color: #A1C487;
+    border-color: var(--first-background-color);
+    color: var(--first-background-color);
 }
 
 .footer-icon {

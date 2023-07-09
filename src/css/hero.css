@@ -217,7 +217,7 @@
 
 .hero-teg-btn:is(:hover, :focus){
 background-color: #F9F7F4;
-color: #141414;
+color: var(--main-text-color);
 }
 
 /* MEDIA_TAB */
