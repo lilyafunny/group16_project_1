@@ -9,7 +9,14 @@
 
     <form class="form-recall">
       <label class="input-recall">
-        <input name="recall" type="phone" placeholder="+380()" class="recall" />
+        <input
+          name="recall"
+          type="tel"
+          placeholder="+380()"
+          class="recall"
+          pattern="^\+380\d{9}$"
+          required
+        />
       </label>
       <button class="button-recall" type="submit">
         <span class="text-button-recall">Recall</span>
