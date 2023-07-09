@@ -47,17 +47,14 @@
 }
 
 @media screen and (min-width: 375px) {
-    .container {
+    .broccoli-section {
         max-width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-
     .broccoli-section {
+        max-width: 768px;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 40px 8px;
@@ -89,11 +86,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
-
     .broccoli-section {
+        max-width: 1280px;
         padding: 124px 32px;
     }
 
