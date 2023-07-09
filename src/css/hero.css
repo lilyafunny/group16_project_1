@@ -227,12 +227,6 @@ border-radius: 1000px;
 color: var(--main-background-color);
 }
 
-.hero-teg-btn.current {
-    background-color: #F9F7F4;
-    border-radius: 1000px;
-    color: var(--main-text-color);
-}
-
 
 /* MEDIA_TAB */
 @media screen and (min-width: 768px) {
