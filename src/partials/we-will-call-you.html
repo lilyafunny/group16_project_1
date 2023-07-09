@@ -25,11 +25,21 @@
   </div>
 
   <div class="positione-img">
-    <img
-      srcset="./img/call-mob-1-1x.png 1x, ./img/call-mob-1-2x.png 2x"
-      src="./img/call-des-1-1x.png"
-      alt="a woman with a vegetable"
-      class="img-women-positione"
-    />
+    <picture class="img-women-positione"> 
+      <source 
+        media="(min-width:1280px)" 
+        srcset="./img/call-des-1-1x.png, ./img/call-des-1-2x.png 2x" 
+      /> 
+      <source 
+        srcset="./img/call-tab-1-1x.png 1x, ./img/call-tab-1-2x.png 2x" 
+        media="(min-width: 768px)" 
+      /> 
+      <source 
+        srcset="./img/call-tab-1-1x.png 1x, ./img/call-tab-1-2x.png 2x" 
+        media="(max-width: 767px)" 
+      /> 
+      <img src="./img/call-tab-1-1x.png 1x" /> 
+    </picture> 
+    
   </div>
 </section>
