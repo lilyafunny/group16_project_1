@@ -1,5 +1,7 @@
 .we-will-call-you {
     background-color: #fff;
+    margin-right: 32px;
+    margin-left: 32px;
 }
 
 @media (min-width: 320px){
@@ -357,7 +359,6 @@ display: flex;
     width: 525px;
         height: 536px;
 }
-
 
 
 
