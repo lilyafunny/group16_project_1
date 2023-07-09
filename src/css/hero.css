@@ -139,7 +139,7 @@
     letter-spacing: -0.56px;
     text-transform: uppercase;
 
-    fill: var(--third-background-color);
+   background-color: var(--third-background-color);
 
     border: none;
     cursor: pointer;
@@ -154,11 +154,17 @@
     justify-content: center;
 }
 
-.btn-shop-now:hover,
-.modal-button:focus {
+.btn-shop-now:is(:hover, :focus){
+    color: var(--first-background-color);
+    background-color:  var(--second-background-color);
+}
+
+
+/*.modal-button:is(:hover, :focus) {
     color: var(--first-background-color);
     fill: var(--second-background-color);
-}
+    background-color:  var(--second-background-color);
+}*/
 
 /* <!-- HERO_CONTANT_IMG --> */
 
@@ -205,8 +211,14 @@
     background-color: transparent;
     border-radius: 1000px;
     color: var(--main-background-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.hero-teg-btn:is(:hover, :focus){
+background-color: #F9F7F4;
+color: #141414;
+}
 
 /* MEDIA_TAB */
 @media screen and (min-width: 768px) {
