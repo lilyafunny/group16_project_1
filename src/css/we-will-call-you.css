@@ -139,6 +139,7 @@
 .positione-img{
     display: flex;
     margin-top: 40px;
+    justify-content: center;
 }
 
 }
@@ -236,11 +237,7 @@ display: flex;
 
 }
    
-        .positione-img {
-            display: flex;
-            margin-top: 40px;
-            justify-content: center;
-        }
+      
         
 
 }
@@ -249,12 +246,7 @@ display: flex;
 @media (min-width: 427px){
 
 
-        .positione-img {
-            display: flex;
-            margin-top: 40px;
-            justify-content: center;
-            
-        }
+        
 
 
                 .img-women-positione {
