@@ -147,31 +147,8 @@
 
 @media (min-width: 375px) {
     
-.section-form-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-    .title-text {
 
-        display: flex;
-        width: 323px;
-        flex-direction: column;
-        justify-content: center;
-        color: #141414;
-        text-align: center;
-        text-shadow: 0 4px 70px  rgba(0, 0, 0, 0.10);
-        font-family: DM Sans;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.16;
-        letter-spacing: -0.96px;
-        text-transform: uppercase;
-
-    }
+   
 
 
     .paragraph-text {
@@ -270,13 +247,7 @@ display: flex;
 
 
 @media (min-width: 427px){
-.section-form-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      
-    }
+
 
         .positione-img {
             display: flex;
@@ -322,29 +293,15 @@ display: flex;
 
 
 
-.section-form-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
 
     .title-text{
-        display: flex;
+       
         width: 524px;
-        flex-direction: column;
-        justify-content: center;
-        color: #141414;
-        text-align: center;
-        text-shadow: 0 4px 70px  rgba(0, 0, 0, 0.10);
-        font-family: DM Sans;
         font-size: 40px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 1.1;
         letter-spacing: -1.6px;
-        text-transform: uppercase;
+        
     }
 
 
@@ -404,11 +361,7 @@ margin-top: 80px;
 
     
 
-.form-recall{
-    width: 350px;
-        height: 48px;
-        flex-shrink: 0;
-}
+
 
 
 .we-will-call-you{
@@ -426,19 +379,11 @@ margin-top: 80px;
 
 
 .title-text{
-display: flex;
+
     width: 614px;
-    flex-direction: column;
-    justify-content: center;color: #141414;
-        text-shadow: 0 4px 70px  rgba(0, 0, 0, 0.10);
-        font-family: DM Sans;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.1;
-        letter-spacing: -1.92px;
-        text-transform: uppercase;
-        text-align: start;
+    font-size: 48px;
+    letter-spacing: -1.92px;
+    text-align: start
 }
 
 .section-form-title {
