@@ -184,3 +184,6 @@
     max-width: calc(100% - 294px);
   }
 }
+/*================= D E S K T O P ====================*/
+@media screen and (min-width: 1280px) {
+}
