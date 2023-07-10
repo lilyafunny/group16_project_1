@@ -32,9 +32,6 @@
 <symbol id="icon-shadow" viewBox="0 0 85 32">
 <path d="M42.723 22.468c18.331 0 33.192-2.896 33.192-6.468s-14.86-6.468-33.191-6.468c-18.331 0-33.191 2.896-33.191 6.468s14.86 6.468 33.191 6.468z"></path>
 </symbol>
-<symbol id="icon-cta" viewBox="0 0 40 38" fill="none">
-<rect width="40" height="38" rx="19" fill="#A1C487"/>
-<path d="M19.574 25V14.092L17.54 14.542V13.498L20.078 12.4H21.104V25H19.574Z" fill="#141414"/>
-</symbol>
+
 </defs>
 </svg>
