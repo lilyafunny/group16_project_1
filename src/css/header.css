@@ -126,7 +126,12 @@
     fill: transparent;
     stroke: var(--main-text-color);
     margin-left: auto;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+    .header-menu-order:is(:hover, :focus) {
+      stroke: var(--first-background-color);
+    }
 
   .menu-list {
     color: var(--main-text-color);
@@ -145,7 +150,12 @@
   .menu-list-link {
     color: var(--main-text-color);
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+    .menu-list-link:is(:hover, :focus){
+      color: var(--first-background-color);
+    }
 }
 /* --------------------------DESKTOP-------------------------- */
 
