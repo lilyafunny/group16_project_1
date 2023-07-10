@@ -1,2 +1,2 @@
-import './js/modal';
-import './js/mobile-menu';
+import '/js/modal.js';
+import '/js/mobile-menu.js';
