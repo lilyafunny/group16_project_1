@@ -114,27 +114,7 @@
 
 
 
-.img-women-positione {
-    
-    
-        display: flex;
-        top: 60px;
-        left: 62px;
-        right: 62px;
-        bottom: 60px;
-        background: #faf3e7;
-        background-image: radial-gradient(circle at 30px 20px,
-                rgba(207,
-                    207,
-                    194,
-                    0.69) 3px,
-                transparent 0);
-        background-size: 45px 39px;
-        padding-top: 40px;
-        padding-bottom: 0px;
-        border-radius: 60px;
-        
-}
+
 
 .positione-img{
     display: flex;
@@ -237,27 +217,6 @@
 
    
 
-.img-women-positione {
-
-
-display: flex;
-    top: 60px;
-    left: 62px;
-    right: 62px;
-    bottom: 60px;
-    background: #faf3e7;
-    background-image: radial-gradient(circle at 30px 20px,
-            rgba(207,
-                207,
-                194,
-                0.69) 3px,
-            transparent 0);
-    background-size: 45px 39px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    border-radius: 60px;
-
-}
    
         .positione-img {
             display: flex;
@@ -286,27 +245,7 @@ display: flex;
         }
 
 
-                .img-women-positione {
-        
-        
-                    display: flex;
-                        top: 60px;
-                        left: 62px;
-                        right: 62px;
-                        bottom: 60px;
-                        background: #faf3e7;
-                        background-image: radial-gradient(circle at 30px 20px,
-                                rgba(207,
-                                    207,
-                                    194,
-                                    0.69) 3px,
-                                transparent 0);
-                        background-size: 45px 39px;
-                        padding-top: 40px;
-                        padding-bottom: 0px;
-                        border-radius: 60px;
-        
-                }
+              
 
 
 }
