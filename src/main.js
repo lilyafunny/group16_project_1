@@ -1,2 +1,2 @@
-import '/modal';
-import '/mobile-menu';
+import './mobile-menu';
+import './modal';
