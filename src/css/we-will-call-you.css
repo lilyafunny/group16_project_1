@@ -313,6 +313,11 @@ display: flex;
 
 
 @media (min-width: 768px){
+
+
+    
+
+
 .section-form-title {
         display: flex;
         flex-direction: column;
@@ -377,7 +382,7 @@ justify-content: center;
     
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1280px){
 
 .form-recall{
     width: 350px;
