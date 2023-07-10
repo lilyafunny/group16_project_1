@@ -435,22 +435,27 @@ display: flex;
 }
 
 
-.img-women-positione{
-    
-    height: 536px;
-    padding-top: 0;
-    display: flex;
-        top: 60px;
-        left: 62px;
-        right: 62px;
-        bottom: 60px;
-        background: #faf3e7;
-        background-image: radial-gradient(circle at 30px 20px, rgba(207, 207, 194, 0.69) 3px, transparent 0);
-        background-size: 4px 40px;
-       
-        padding-bottom: 0px;
-        border-radius: 60px;
-}
+ .img-women-positione {
+
+
+     display: flex;
+     top: 60px;
+     left: 62px;
+     right: 62px;
+     bottom: 60px;
+     background: #faf3e7;
+     background-image: radial-gradient(circle at 30px 20px,
+             rgba(207,
+                 207,
+                 194,
+                 0.69) 3px,
+             transparent 0);
+     background-size: 41px 40px;
+     padding-top: 40px;
+     padding-bottom: 0px;
+     border-radius: 60px;
+
+ }
 
 .recall {
     padding-left: 1px;
