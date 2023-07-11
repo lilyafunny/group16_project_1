@@ -1,6 +1,7 @@
 .we-will-call-you {
     background-color: #fff;
     padding: 0 20px 80px;
+    margin: 0 auto;
     
 }
 
@@ -16,7 +17,7 @@
 
 
 
-@media (min-width: 320px){
+
     .section-form-title {
             display: flex;
             flex-direction: column;
@@ -64,18 +65,13 @@
     }
 
 .form-recall {
-    border-radius: 100px;
-    border: 1px solid #cac8c8;
-    padding-left: 8px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  
 
 
 }
 
 .recall {
-    padding-left: 3px;
+    
     color: #C1BDBD;
 
     font-size: 14px;
@@ -83,33 +79,55 @@
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.56px;
+    border-radius: 100px;
+        border: 1px solid #cac8c8;
+        
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 350px;
+      padding: 15px 24px;
+      position: relative;
 }
 
+
+.recall:hover, .recall:focus {
+    border: none;
+}
+
+
 .button-recall {
-    display: inline-flex;
+    display: flex;
     padding: 15px 35px;
     align-items: center;
     gap: 15px;
     border-radius: 100px;
     background: #FC8A11;
     border: none;
-}
-
-.text-button-recall {
     color: #FFF;
-    font-family: DM Sans;
+    
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.56px;
     text-transform: capitalize;
+    position: absolute;
+        top: 0;
+        right: 0;
+        
+        height: 100%;
+
+            
+    
 }
 
-.recall {
-    border: none;
-
+.input-button{
+    position: relative;
 }
+
+
+
 
 
 
@@ -142,7 +160,7 @@
     justify-content: center;
 }
 
-}
+
 
 
 
@@ -170,37 +188,11 @@
     }
 
 
-    .form-recall {
-        border-radius: 100px;
-        border: 1px solid #cac8c8;
-        padding-left: 15px;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
+  
 
+   
 
-    }
-
-    .recall {
-        padding-left: 3px;
-        color: #C1BDBD;
-
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.28;
-        letter-spacing: -0.56px;
-    }
-
-    .button-recall {
-        display: inline-flex;
-        padding: 15px 35px;
-        align-items: center;
-        
-        border-radius: 100px;
-        background: #FC8A11;
-        border: none;
-    }
+    
 
     .text-button-recall {
         color: #FFF;
@@ -361,7 +353,7 @@ margin-top: 80px;
         padding-right: 32px;
         padding-left: 0;
         align-items: center;
-        justify-content: space-between;      
+           margin: 0 auto;
         flex-wrap: nowrap;
     
         
@@ -420,15 +412,7 @@ margin-top: 80px;
 
  }
 
-.recall {
-    padding-left: 1px;
-    color: #C1BDBD;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28;
-    letter-spacing: -0.56px;
-}
+
 
 
 

@@ -9,7 +9,8 @@
       </p>
     </div>
     <form class="form-recall">
-      <label class="input-recall">
+      <label class="input-recall"></label>
+      <div class="input-button">
         <input
           name="recall"
           type="tel"
@@ -18,22 +19,21 @@
           pattern="^\+380\d{9}$"
           required
         />
-      </label>
-      <button class="button-recall" type="submit">
-        <span class="text-button-recall">Recall</span>
-      </button>
+
+        <button class="button-recall" type="submit">Recall</button>
+      </div>
     </form>
   </div>
 
   <div class="positione-img">
     <picture class="img-women-positione">
       <source
-        media="(max-width:1280px)"
-        srcset="./img/call-des-1-1x.png, ./img/call-des-1-2x.png 2x"
+        media="(max-width: 1280px)"
+        srcset="./img/call-des-1-1x.png 1x, ./img/call-des-1-2x.png 2x"
       />
       <source
-        media="(min-width:1280px)"
-        srcset="./img/call-des-1-1x.png, ./img/call-des-1-2x.png 2x"
+        media="(min-width: 1280px)"
+        srcset="./img/call-des-1-1x.png 1x, ./img/call-des-1-2x.png 2x"
       />
       <source
         srcset="./img/call-tab-1-1x.png 1x, ./img/call-tab-1-2x.png 2x"
@@ -43,7 +43,7 @@
         srcset="./img/call-tab-1-1x.png 1x, ./img/call-tab-1-2x.png 2x"
         media="(max-width: 767px)"
       />
-      <img src="./img/call-tab-1-1x.png 1x" />
+      <img src="./img/call-tab-1-1x.png" alt="girl-vegetables" />
     </picture>
   </div>
 </section>
