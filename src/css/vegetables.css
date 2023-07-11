@@ -161,7 +161,7 @@ left:50%;
  @media (min-width:768px){
     .container-veg{
         max-width: 768px;
-        padding: 80px 32px;
+        padding: 100px 32px;
     }
      .order-button{
          width: 114px;
@@ -240,7 +240,7 @@ font-size: 28px;
  @media (min-width:1280px){
     .container-veg{
         max-width: 1280px;
-        padding: 80px 32.5px;
+        padding: 124px 32.5px;
     }
    
      .cards-price{
