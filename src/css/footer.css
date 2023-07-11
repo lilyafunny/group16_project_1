@@ -58,6 +58,11 @@
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.04em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link-nav:is(:hover, :focus) {
+    color: var(--first-background-color);
 }
 
 /* ______________________Social Networks________________________ */
@@ -80,12 +85,20 @@
     align-items: center;
     border-radius: 10px;
     border: 1px solid var(--main-text-color);
+    color: var(--main-text-color);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.footer-link-icon:is(:hover, :focus) {
+    border-color: var(--first-background-color);
+    color: var(--first-background-color);
 }
 
 .footer-icon {
-    fill: var(--main-text-color);
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 /* ______________________Contact________________________ */
 
@@ -102,6 +115,8 @@
     min-width: 143px;
 }
 
+
+
 .footer-item-addres {
     max-width: 135px;
 }
@@ -115,6 +130,11 @@
     line-height: 1.29;
     text-transform: uppercase;
     justify-content: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-namber:is(:hover, :focus) {
+    color: var(--first-background-color);
 }
 
 .footer-addres {
@@ -125,6 +145,11 @@
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-addres:is(:hover, :focus) {
+    color: var(--first-background-color);
 }
 
 
