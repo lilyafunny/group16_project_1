@@ -14,13 +14,13 @@
             type="checkbox"
             name="check-item"
             id="check-item"
-            class="input-check visually-hidden"
+            class="input-check is-hidden"
             value="true"
           />
           <label for="check-item" class="check-text"
             ><span class="label-span">
-              <svg class="check-icon" width="10" height="10" style="stroke: green">
-                <use href="./images/icons.svg#icon-checkbox"></use>
+              <svg class="check-icon" width="10" height="10">
+                <use href="./img/icons.svg#icon-checkbox"></use>
               </svg>
             </span>
           </label>
@@ -54,8 +54,8 @@
           />
           <label for="check-item-2" class="check-text"
             ><span class="label-span">
-              <svg class="check-icon" width="10" height="10" style="fill: red">
-                <use href="./images/icons.svg#icon-arrow"></use>
+              <svg class="check-icon" width="10" height="10">
+                <use href="./img/icons.svg#icon-checkbox"></use>
               </svg>
             </span>
           </label>
@@ -90,8 +90,8 @@
           />
           <label for="check-item-3" class="check-text"
             ><span class="label-span">
-              <svg class="check-icon" width="1" height="1">
-                <use href="./images/icons.svg#icon-arrow"></use>
+              <svg class="check-icon" width="10" height="10">
+                <use href="./img/icons.svg#icon-checkbox"></use>
               </svg>
             </span>
           </label>
@@ -122,11 +122,22 @@
           placeholder="Enter full name..."
           name="user-name"
           class="modal-input"
+          pattern="^(\w\w+)\s(\w+)$"
           id="user-name"
           required
         />
-        <input type="text" class="modal-input" placeholder="Enter email..." />
-        <input type="text" class="modal-input" placeholder="Enter card.." />
+        <input
+          type="text"
+          class="modal-input"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}"
+          placeholder="Enter email..."
+        />
+        <input
+          type="text"
+          class="modal-input"
+          pattern="[0-9]{4}+\d\s\S[0-9]{4}+\d\s\S[0-9]{4}+\d\s\S[0-9]{4}"
+          placeholder="Enter card.."
+        />
         <textarea
           type="textarea"
           name="user-comments"
@@ -144,7 +155,7 @@
           class="img-form-position"
         />
         <img
-          src="./img/hero-tab-1-1x.png"
+          src="./img/modal-des-1x.png"
           alt=""
           class="img-form-position-desk"
           width="444"
