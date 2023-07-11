@@ -51,7 +51,7 @@
 .mob-menu {
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   top: 0;
   z-index: 2;
   background: var(--first-background-color);
@@ -100,7 +100,7 @@
 .box {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
 }
 .overlay {
