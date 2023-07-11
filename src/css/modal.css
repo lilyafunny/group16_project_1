@@ -1,0 +1,259 @@
+.section-form {
+
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+.container-form {
+    max-width: 335px;
+    position: relative;
+
+}
+
+.close-btn {
+    position: absolute;
+    right: 14px;
+    border: none;
+    background-color: transparent;
+
+
+}
+
+.icon-close {
+    stroke: #141414;
+
+}
+
+.title-form {
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.form-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+
+.form-list-item {
+    background-color: var(--third-background-color);
+    width: 100%;
+    height: 119px;
+    border-radius: 20px;
+    padding: 20px 30px 8px 20px;
+    position: relative;
+
+}
+
+.title-list-order {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+}
+
+.plant {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+}
+
+.img-plant {
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+}
+
+.checkbox-position {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.input-check:checked+.check-text .check-icon {
+    fill: #A1C487;
+}
+
+.check-text {
+    border: solid #A1C487 2px;
+    border-radius: 4px;
+    background-color: transparent;
+    display: inline-flex;
+}
+
+.label-span {
+    text-align: center;
+    width: 16px;
+    height: 16px;
+}
+
+.check-icon {
+    fill: transparent;
+}
+
+.img-form-position,
+.img-form-position-desk {
+    display: none;
+}
+
+.order {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.modal-input {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid rgba(20, 20, 20, 0.30);
+    height: 46px;
+    padding: 14px 24px;
+    color: rgba(20, 20, 20, 0.50);
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+.submit-btn {
+    border-radius: 100px;
+    background-color: var(--main-button-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    color: var(--main-background-color);
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    border: none;
+    padding: 12px 24px;
+    max-width: 92px;
+    height: 42px;
+}
+
+.modal-textarea {
+    height: 132px;
+    border-radius: 20px;
+    resize: none;
+}
+
+
+
+/* --------------media screen and (max-width:428px----------------------- */
+
+
+@media screen and (min-width:768px) {
+    .container-form {
+        max-width: 704px;
+        position: relative;
+
+    }
+
+    .section-form {
+        padding: 20px;
+        height: 100%;
+
+    }
+
+    .title-form {
+        text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+        text-transform: uppercase;
+
+    }
+
+    .form-list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .form-list-item {
+        width: calc((100% - 24px) / 3);
+        height: fit-content;
+        padding-left: 14px;
+        padding-bottom: 14px;
+        padding-right: 14px;
+    }
+
+    .img-plant {
+        position: static;
+        width: 172px;
+        height: 142px;
+        margin: 0 auto;
+
+    }
+
+    .label-span {
+        width: 20px;
+        height: 20px;
+    }
+
+    .modal-input {
+        height: 48px;
+        padding: 15px 24px;
+
+    }
+
+    .submit-btn {
+        padding: 15px 35px;
+    }
+
+    .modal-textarea {
+        height: 145px;
+        resize: none;
+    }
+
+    .modal-input {
+        max-width: 360px;
+    }
+
+    .img-form-position {
+        position: absolute;
+        right: 0;
+        display: block;
+    }
+
+
+
+}
+
+@media screen and (min-width:1280px) {
+    .container-form {
+        max-width: 891px;
+        position: relative;
+
+    }
+
+    .form-list-item {
+        width: calc((100% - 40px) / 3);
+    }
+
+    .img-form-position {
+        display: none;
+    }
+
+    .img-form-position-desk {
+        display: block;
+        position: absolute;
+        bottom: -37;
+        right: 0;
+    }
+}
