@@ -149,9 +149,14 @@ left:50%;
  } */
  /* MEDIA */
  @media (min-width:375px){
-    
+    .container-veg{
+        max-width: 373px;
+    }
  }
  @media (min-width:768px){
+    .container-veg{
+        max-width: 766px;
+    }
      .order-button{
          width: 114px;
  height: 114px;
@@ -227,6 +232,9 @@ font-size: 28px;
      }
  }
  @media (min-width:1280px){
+    .container-veg{
+        max-width: 1280px;
+    }
    
      .cards-price{
          margin-top: 285px;
