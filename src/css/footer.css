@@ -128,7 +128,12 @@
 }
 
 
-@media screen and (min-width: 375px) {}
+@media screen and (min-width: 375px) {
+    .footer-container{
+        max-width: 375px;
+        margin: 0 auto;
+    }
+}
 
 @media screen and (min-width: 768px) {
 
@@ -139,9 +144,9 @@
 
     .footer-container {
         margin: auto;
-        width: 704px;
+        max-width: 768px;
         display: flex;
-        justify-content: space-between;
+        gap: 171px;
     }
 
     .footer-container-logo {
@@ -183,10 +188,10 @@
 
 @media screen and (min-width: 1280px) {
     .footer-container {
-        width: 1106px;
+        max-width: 1280px;
         justify-content: start;
         gap: 166px;
-        margin: 0;
+        margin: auto;
     }
 
     .footer-container-logo {
