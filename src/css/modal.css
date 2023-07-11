@@ -1,4 +1,5 @@
 .section-form {
+
     width: 100vw;
     height: 100vh;
     padding: 20px 0;
@@ -151,10 +152,16 @@
 
 
 @media screen and (min-width:768px) {
+    .container-form {
+        max-width: 704px;
+        position: relative;
+
+    }
 
     .section-form {
         padding: 20px;
         height: 100%;
+
     }
 
     .title-form {
