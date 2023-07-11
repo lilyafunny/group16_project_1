@@ -146,7 +146,7 @@
         margin: auto;
         max-width: 768px;
         display: flex;
-        gap: 171px;
+        justify-content: space-between;
     }
 
     .footer-container-logo {
