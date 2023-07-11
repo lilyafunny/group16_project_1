@@ -9,12 +9,13 @@
     position: absolute;
     right: 14px;
     border: none;
+    background-color: transparent;
 
 
 }
 
 .icon-close {
-    fill: red;
+    stroke: #141414;
 
 }
 
@@ -71,24 +72,21 @@
     right: 14px;
 }
 
-.input-check:checked+.label-span {
-    fill: #A1C487;
+.input-check:checked+.label-span .check-icon {
+    stroke: #A1C487;
 }
 
-.check-text {
-    width: 16px;
-    height: 16px;
+.check-text {}
+
+.label-span {
     border: solid #A1C487 1.5px;
     border-radius: 4px;
     background-color: transparent;
     display: inline-flex;
-    fill: red;
-
-
 }
 
 .check-icon {
-    fill: red;
+    stroke: transparent;
 }
 
 .img-form-position,
@@ -238,7 +236,7 @@
     .img-form-position-desk {
         display: block;
         position: absolute;
-        bottom: -15;
+        bottom: -37;
         right: 0;
     }
 }
