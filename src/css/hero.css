@@ -206,6 +206,7 @@
     line-height: 1.2;
     letter-spacing: -0.4px;
     text-transform: uppercase;
+    height: 28px;
 
     border-radius: 1000px;
     border: 1px solid var(--main-background-color);
@@ -310,6 +311,7 @@ color: var(--main-text-color);
         font-size: 12px;
         line-height: 1.1;
         letter-spacing: -0.48px;
+        height: 34px;
     }
 }
 
@@ -366,12 +368,14 @@ color: var(--main-text-color);
     }
 
     .hero-teg-list {
-        max-width: 269px;
+        max-width: 270px;
         gap: 8px;
     }
 
     .hero-teg-btn {
         padding: 12px 32px;
+        line-height: 1.16;
+        height: 38px;
     }
 
 
