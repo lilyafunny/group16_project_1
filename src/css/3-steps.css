@@ -1,10 +1,14 @@
 .easysteps {
   margin: 0 auto;
+}
+.conteiner1 {
   padding: 80px 20px;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
+}
+.conteiner1 {
   background: #faf3e7;
   background-image: radial-gradient(
     circle at 30px 20px,
@@ -26,10 +30,7 @@
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-.conteiner2 {
-}
-.easysteps-conteiner-content {
-}
+
 .easysteps-text {
   text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
   font-weight: 400;
@@ -40,23 +41,23 @@
 
 /*================= media ====================*/
 @media screen and (min-width: 375px) {
-  .easysteps-conteiner {
+  .easysteps {
     max-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
-  .easysteps-conteiner {
+  .easysteps {
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .easysteps-conteiner {
+  .easysteps {
     max-width: 1280px;
   }
 }
 /*================= M O B A I L ====================*/
 
-.easysteps {
+.conteiner1 {
   flex-direction: column;
 }
 
@@ -119,10 +120,10 @@
 /*================TABLET====================*/
 
 @media screen and (min-width: 768px) {
-  .easysteps {
+  .conteiner1 {
     flex-direction: row;
   }
-  .easysteps {
+  .conteiner1 {
     position: relative;
     display: flex;
     align-items: center;
