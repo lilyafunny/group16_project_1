@@ -2,13 +2,11 @@
   margin: 0 auto;
 }
 .conteiner1 {
-  padding: 80px 20px;
   display: flex;
   width: 100%;
+  padding: 80px 20px 0 20px;
   justify-content: space-between;
   align-items: center;
-}
-.conteiner1 {
   background: #faf3e7;
   background-image: radial-gradient(
     circle at 30px 20px,
