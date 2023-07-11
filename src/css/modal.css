@@ -6,6 +6,12 @@
     border-radius: 20px;
 }
 
+.container-form {
+    max-width: 335px;
+    position: relative;
+
+}
+
 .close-btn {
     position: absolute;
     right: 14px;
