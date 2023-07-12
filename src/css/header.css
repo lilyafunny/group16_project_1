@@ -50,7 +50,7 @@
 /* -------------------mob-menu--------- */
 .mob-menu {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   top: 0;
   z-index: 2;
@@ -95,25 +95,6 @@
 .mobile-menu-list-link {
   color: var(--main-background-color);
   display: block;
-}
-
-.box {
-  position: relative;
-  width: 100vw;
-  height: 100%;
-  margin: 0 auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translatex(100%);
-  transition: transform 250ms ease-in-out;
-}
-.box:hover .overlay {
-  transform: translatex(0);
 }
 
 @media screen and (min-width: 375px) {
