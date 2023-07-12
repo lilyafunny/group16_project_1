@@ -3,11 +3,9 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--main-background-color);
+    background-color: transparent;
     border-radius: 20px;
     transition: visibility 250ms ease-in-out, opacity 250ms ease-in-out;
-    padding: 20px 0;
-
 }
 
 .div-form.is-hidden .container-form {
@@ -15,7 +13,7 @@
 }
 
 .container-form {
-    padding: 20px;
+    padding: 20px 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,6 +23,7 @@
     max-width: 335px;
     min-height: 903px;
     border: none;
+    background-color: var(--main-background-color);
 }
 
 .close-btn {
@@ -180,6 +179,7 @@
     .container-form {
         max-width: 704px;
         position: relative;
+        max-height: 853px;
 
     }
 
@@ -261,6 +261,7 @@
     .container-form {
         max-width: 891px;
         position: relative;
+        max-height: 911px;
 
     }
 
