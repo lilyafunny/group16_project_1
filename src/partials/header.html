@@ -24,20 +24,25 @@
         Veggieboost
       </a>
     </nav>
-    <button type="button" class="header-open-button" data-menu-open>
-      <svg width="24" height="24">
-        <use href="/img/icons.svg#icon-openmob"></use>
-      </svg>
-    </button>
-
     <button type="button" class="header-menu-order" data-modal-open1>
       <svg width="20" height="20">
         <use href="/img/icons.svg#icon-shoppcart"></use>
       </svg>
     </button>
+
+    <button
+      type="button"
+      class="header-open-button js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg width="24" height="24">
+        <use href="/img/icons.svg#icon-openmob"></use>
+      </svg>
+    </button>
   </div>
 
-  <div class="mob-menu is-hidden" data-menu>
+  <div class="mob-menu js-menu-container" id="mobile-menu">
     <div class="header-container">
       <a href="./index.html" class="logo link">
         <span>
@@ -48,14 +53,14 @@
         Veggieboost
       </a>
 
-      <button type="button" class="mobile-menu-close" data-menu-close>
+      <button type="button" class="mobile-menu-close js-close-menu">
         <svg class="mobile-menu-close-icon" width="24" height="24">
           <use href="/img/icons.svg#icon-close"></use>
         </svg>
       </button>
     </div>
 
-    <ul class="mobile-menu-list list">
+    <ul class="mobile-menu-list list js-close-menu1">
       <li>
         <a href="#how-it-works" class="mobile-menu-list-link link"
           >How It Works</a
