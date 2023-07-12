@@ -27,10 +27,7 @@
     border: none;
     border-radius: 20px;
     background-color: var(--main-background-color);
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.01), 0 0 18px 0 rgba(0, 0, 0, 0.02), 0 0 36px 0 rgba(0, 0, 0, 0.03), 0 0 71px 0 rgba(0, 0, 0, 0.03), 0 0 130px 0 rgba(0, 0, 0, 0.04), 0 0 223px 0 rgba(0, 0, 0, 0.05);
-
-
-
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.01), 0 0 18px rgba(0, 0, 0, 0.02), 0 0 36px rgba(0, 0, 0, 0.03), 0 0 71px rgba(0, 0, 0, 0.03), 0 0 130px rgba(0, 0, 0, 0.04), 0 0 223px rgba(0, 0, 0, 0.05);
 }
 
 .close-btn {
