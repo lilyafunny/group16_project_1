@@ -86,7 +86,7 @@
 }
 
 .img-plant {
-    position: absolute;
+    position: static;
     bottom: 8px;
     right: 30px;
 }
