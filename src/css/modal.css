@@ -1,4 +1,6 @@
 .section-form {
+    z-index: 1;
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,7 +25,9 @@
     max-width: 335px;
     min-height: 903px;
     border: none;
+    border-radius: 20px;
     background-color: var(--main-background-color);
+
 }
 
 .close-btn {
