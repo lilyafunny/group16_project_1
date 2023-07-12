@@ -10,7 +10,7 @@
 
 }
 
-.section-form.is-hidden .container-form {
+.div-form.is-hidden .container-form {
     transform: translate(-50%, -50%) scale(0);
 }
 
