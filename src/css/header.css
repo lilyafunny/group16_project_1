@@ -132,7 +132,7 @@
 @media screen and (min-width: 768px) {
   .header-container {
     max-width: 768px;
-    padding: 13px 32px;
+    padding: 15px 32px;
   }
 
   /* -------------------HEADER------- */
@@ -186,6 +186,7 @@
 @media screen and (min-width: 1280px) {
   .header-container {
     max-width: 1280px;
+    padding: 13px 32px;
   }
   .header-menu {
     display: flex;
