@@ -73,7 +73,13 @@
   border: none;
   border-radius: 0;
   padding: 0;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mobile-menu-close:is(:hover, :focus){
+  stroke: var(--main-text-color);
+}
+
 .mobile-menu-order {
   padding: 0;
   border: none;
@@ -81,7 +87,13 @@
   background-color: transparent;
   fill: transparent;
   stroke: var(--main-background-color);
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mobile-menu-order:is(:hover, :focus){
+    stroke: var(--main-text-color);
+}
+
 /* -------------------mob-menu-NAV--------- */
 .mobile-menu-list {
   color: var(--main-background-color);
@@ -102,6 +114,11 @@
 .mobile-menu-list-link {
   color: var(--main-background-color);
   display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-list-link:is(:hover, :focus){
+  color: var(--main-text-color);
 }
 
 @media screen and (min-width: 375px) {
