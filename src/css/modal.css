@@ -1,28 +1,33 @@
 .section-form {
-position: fixed;
-top: 0;
-    width: 100vw;
-    height: 100vh;
-    padding: 20px 0;
+    z-index: 1;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
     border-radius: 20px;
-    transition: visibility var(--typical-transition), opacity var(--typical-transition);
-    background-color: var(--main-background-color);
+    transition: visibility 250ms ease-in-out, opacity 250ms ease-in-out;
 }
 
-.section-form.is-hidden .container-form {
+.div-form.is-hidden .container-form {
     transform: translate(-50%, -50%) scale(0);
 }
 
 .container-form {
+    padding: 20px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms ease-in-out;
+    min-width: 300px;
     max-width: 335px;
-    position: relative;
+    min-height: 903px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--main-background-color);
 
-}
-
-.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
 }
 
 .close-btn {
@@ -30,10 +35,13 @@ top: 0;
     right: 14px;
     border: none;
     background-color: transparent;
+
+
 }
 
 .icon-close {
     stroke: #141414;
+
 }
 
 .title-form {
@@ -78,7 +86,7 @@ top: 0;
 }
 
 .img-plant {
-    position: absolute;
+    position: static;
     bottom: 8px;
     right: 30px;
 }
@@ -168,14 +176,18 @@ top: 0;
 
 
 @media screen and (min-width:768px) {
+    .section-form .container {
+        margin: 0;
+    }
+
     .container-form {
         max-width: 704px;
         position: relative;
+        max-height: 853px;
 
     }
 
     .section-form {
-        padding: 20px;
         height: 100%;
 
     }
@@ -246,9 +258,14 @@ top: 0;
 }
 
 @media screen and (min-width:1280px) {
+    .section-form .container {
+        margin: 0;
+    }
+
     .container-form {
         max-width: 891px;
         position: relative;
+        max-height: 911px;
 
     }
 

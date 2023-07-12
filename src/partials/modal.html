@@ -1,93 +1,186 @@
-<section class="section-form is-hidden" data-modal>
-  <div class="container container-form">
-    <button class="close-btn" data-modal-close>
-      <svg class="icon-close" width="24" height="24">
-        <use href="./img/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-    <p class="title-form">Your Order</p>
-
-    <ul class="form-list">
-      <li class="form-list-item">
-        <div class="checkbox-position">
-          <input type="checkbox" name="check-item" id="check-item" class="input-check is-hidden" value="true" />
-          <label for="check-item" class="check-text"><span class="label-span">
-              <svg class="check-icon" width="10" height="10">
-                <use href="./img/icons.svg#icon-checkbox"></use>
-              </svg>
-            </span>
-          </label>
-        </div>
-        <p class="title-list-order">Cabbage Basket</p>
-        <p class="plant">Plant</p>
-        <!-- width="94" height="78" -->
-        <img srcset="
-            ./img/modal-mob-1-1x.png 1x,
-            ./img/modal-mob-1-2x.png 2x,
-            ./img/modal-tab-1-1x.png 1x,
-            ./img/modal-tab-1-2x.png 2x,
-            ./img/modal-des-1-1x.png 1x,
-            ./img/modal-des-1-2x.png 2x
-          " src="./img/modal-mob-2-1x.png" width="94" height="78" alt="" class="img-plant" />
-      </li>
-      <li class="form-list-item">
-        <div class="checkbox-position">
-          <input type="checkbox" name="check-item" id="check-item-2" class="input-check is-hidden" value="true" />
-          <label for="check-item-2" class="check-text"><span class="label-span">
-              <svg class="check-icon" width="10" height="10">
-                <use href="./img/icons.svg#icon-checkbox"></use>
-              </svg>
-            </span>
-          </label>
-        </div>
-        <p class="title-list-order">Tomato Basket</p>
-        <p class="plant">Plant</p>
-        <img srcset="
-            ./img/modal-mob-2-1x.png 1x,
-            ./img/modal-mob-2-2x.png 2x,
-            ./img/modal-tab-2-1x.png 1x,
-            ./img/modal-tab-2-2x.png 2x,
-            ./img/modal-des-2-1x.png 1x,
-            ./img/modal-des-2-2x.png 2x
-          " src="./img/modal-mob-2-1x.png" width="94" height="78" alt="" class="img-plant" />
-      </li>
-      <li class="form-list-item">
-        <div class="checkbox-position">
-          <input type="checkbox" name="check-item" id="check-item-3" class="input-check is-hidden" value="true" />
-          <label for="check-item-3" class="check-text"><span class="label-span">
-              <svg class="check-icon" width="10" height="10">
-                <use href="./img/icons.svg#icon-checkbox"></use>
-              </svg>
-            </span>
-          </label>
-        </div>
-        <p class="title-list-order">Vegetables Basket</p>
-        <p class="plant">Plant</p>
-        <img srcset="
-            ./img/modal-mob-3-1x.png 1x,
-            ./img/modal-mob-3-2x.png 2x,
-            ./img/modal-tab-3-1x.png 1x,
-            ./img/modal-tab-3-2x.png 2x,
-            ./img/modal-des-3-1x.png 1x,
-            ./img/modal-des-3-2x.png 2x
-          " src="./img/modal-mob-3-1x.png" width="94" height="78" alt="" class="img-plant" />
-      </li>
-    </ul>
-    <div class="form-position">
-      <form class="order">
-        <input type="text" placeholder="Enter full name..." name="user-name" class="modal-input"
-          pattern="^(\w\w+)\s(\w+)$" id="user-name" required />
-        <input type="text" class="modal-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}"
-          placeholder="Enter email..." />
-        <input type="text" class="modal-input" pattern="[0-9]{4}+\d\s\S[0-9]{4}+\d\s\S[0-9]{4}+\d\s\S[0-9]{4}"
-          placeholder="Enter card.." />
-        <textarea name="user-comments" id="user-comments" class="modal-input modal-textarea"
-          placeholder="Enter comments..." cols="30" rows="10"></textarea>
-
-        <button type="submit" class="submit-btn">Submit</button>
-        <img src="./img/modal-des-tab-4-1x.png" alt="" class="img-form-position" />
-        <img src="./img/modal-des-1x.png" alt="" class="img-form-position-desk" width="444" height="413" />
-      </form>
+<div class="section-form is-hidden" data-modal>
+    <div class="container-form " data-modal>
+      <button class="close-btn" data-modal-close>
+        <svg class="icon-close" width="24" height="24">
+          <use href="../img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h2 class="title-form">Your Order</h2>
+  
+      <ul class="form-list">
+        <li class="form-list-item">
+          <div class="checkbox-position">
+            <input
+              type="checkbox"
+              name="check-item"
+              id="check-item"
+              class="input-check is-hidden"
+              value="true"
+            />
+            <label for="check-item" class="check-text"
+              ><span class="label-span">
+                <svg class="check-icon" width="10" height="10">
+                  <use href="./img/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <p class="title-list-order">Cabbage Basket</p>
+          <p class="plant">Plant</p>
+          <!-- width="94" height="78" -->
+          <picture class="img-plant">
+            <source
+              srcset="./img/modal-des-1-1x.png 1x, ./img/modal-des-1-2x.png 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="./img/modal-tab-1-1x.png 1x, ./img/modal-tab-1-2x.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./img/modal-mob-1-1x.png 1x, ./img/modal-mob-1-2x.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/modal-des-1-1x.png"
+              alt="cabbage"
+              width="94"
+              height="78"
+              class="img-plant"
+            />
+          </picture>
+        </li>
+        <li class="form-list-item">
+          <div class="checkbox-position">
+            <input
+              type="checkbox"
+              name="check-item"
+              id="check-item-2"
+              class="input-check is-hidden"
+              value="true"
+            />
+            <label for="check-item-2" class="check-text"
+              ><span class="label-span">
+                <svg class="check-icon" width="10" height="10">
+                  <use href="./img/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <p class="title-list-order">Tomato Basket</p>
+          <p class="plant">Plant</p>
+          <picture class="img-plant">
+            <source
+              srcset="./img/modal-des-2-1x.png 1x, ./img/modal-des-2-2x.png 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="./img/modal-tab-2-1x.png 1x, ./img/modal-tab-2-2x.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./img/modal-mob-2-1x.png 1x, ./img/modal-mob-2-2x.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/modal-des-2-1x.png"
+              alt="tomato"
+              width="94"
+              height="78"
+              class="img-plant"
+            />
+          </picture>
+        </li>
+        <li class="form-list-item">
+          <div class="checkbox-position">
+            <input
+              type="checkbox"
+              name="check-item"
+              id="check-item-3"
+              class="input-check is-hidden"
+              value="true"
+            />
+            <label for="check-item-3" class="check-text"
+              ><span class="label-span">
+                <svg class="check-icon" width="10" height="10">
+                  <use href="./img/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <p class="title-list-order">Vegetables Basket</p>
+          <p class="plant">Plant</p>
+          <picture class="img-plant">
+            <source
+              srcset="./img/modal-des-3-1x.png 1x, ./img/modal-des-3-2x.png 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="./img/modal-tab-3-1x.png 1x, ./img/modal-tab-3-2x.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./img/modal-mob-3-1x.png 1x, ./img/modal-mob-3-2x.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/modal-des-3-1x.png"
+              alt="vegetables"
+              width="94"
+              height="78"
+              class="img-plant"
+            />
+          </picture>
+        </li>
+      </ul>
+      <div class="form-position">
+        <form class="order">
+          <input
+            type="text"
+            placeholder="Enter full name..."
+            name="user-name"
+            class="modal-input"
+            pattern="^(\w\w+)\s(\w+)$"
+            id="user-name"
+            required
+          />
+          <input
+            type="text"
+            class="modal-input"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}"
+            placeholder="Enter email..."
+          />
+          <input
+            type="text"
+            class="modal-input"
+            pattern="[0-9]{4}+\d\s\S[0-9]{4}+\d\s\S[0-9]{4}+\d\s\S[0-9]{4}"
+            placeholder="Enter card.."
+          />
+          <textarea
+            name="user-comments"
+            id="user-comments"
+            class="modal-input modal-textarea"
+            placeholder="Enter comments..."
+            cols="30"
+            rows="10"
+          ></textarea>
+  
+          <button type="submit" class="submit-btn">Submit</button>
+          <img
+            src="./img/modal-des-tab-4-1x.png"
+            alt="girl with vegetables"
+            class="img-form-position"
+          />
+          <img
+            src="./img/modal-des-1x.png"
+            alt="girl with vegetables"
+            class="img-form-position-desk"
+            width="444"
+            height="413"
+          />
+         
+        </form>
+      </div>
     </div>
   </div>
-</section>
+  
