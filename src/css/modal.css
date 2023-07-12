@@ -6,7 +6,7 @@
     background-color: var(--main-background-color);
     border-radius: 20px;
     transition: visibility 250ms ease-in-out, opacity 250ms ease-in-out;
-    padding: 20px 0;    
+    padding: 20px 0;
 
 }
 
@@ -25,7 +25,7 @@
     max-width: 335px;
     min-height: 903px;
     border: none;
-}   
+}
 
 .close-btn {
     position: absolute;
@@ -173,6 +173,10 @@
 
 
 @media screen and (min-width:768px) {
+    .section-form .container {
+        margin: 0;
+    }
+
     .container-form {
         max-width: 704px;
         position: relative;
@@ -250,6 +254,10 @@
 }
 
 @media screen and (min-width:1280px) {
+    .section-form .container {
+        margin: 0;
+    }
+
     .container-form {
         max-width: 891px;
         position: relative;
